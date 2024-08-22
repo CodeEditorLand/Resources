@@ -1,6 +1,6 @@
 /// <reference lib="dom" />
 import { DOMParser } from "npm:linkedom@0.16.4";
-import { svg2png, initialize } from "npm:svg2png-wasm@1.4.1";
+import { initialize, svg2png } from "npm:svg2png-wasm@1.4.1";
 import resources from "./resources.json" with { type: "json" };
 
 type Elem<T> = T extends Array<infer R> ? R : never;
